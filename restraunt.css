@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: blanchedalmond;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+/* MAIN */
+
+.main{
+    min-height: calc(100vh - 80px);
+}
+
+/* NAVBAR */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #822;
+
+    margin: 10px;
+    padding: 18px 30px;
+
+    border-radius: 20px;
+
+    color: blanchedalmond;
+}
+
+/* LEFT SIDE */
+
+.left{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.icon img{
+    border-radius: 50%;
+}
+
+.icon2{
+    font-size: 30px;
+    font-weight: 800;
+}
+
+/* RIGHT SIDE */
+
+.right{
+    display: flex;
+    gap: 25px;
+}
+
+.heads{
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.heads:hover{
+    color: #ffb3c1;
+}
+
+/* HERO SECTION */
+
+.name{
+    text-align: center;
+    margin-top: 60px;
+
+    color: #822;
+
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.tagline{
+    font-size: 28px;
+    margin-top: 15px;
+
+    text-shadow: 1px 1px 6px rgb(232, 138, 138);
+}
+
+/* BUTTON */
+
+.btn{
+    margin-top: 30px;
+
+    padding: 14px 30px;
+
+    background-color: #822;
+    color: blanchedalmond;
+
+    border: none;
+    border-radius: 30px;
+
+    font-size: 18px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover{
+    background-color: rgb(120, 20, 20);
+    transform: scale(1.05);
+}
+
+/* FOOD SECTION */
+
+.five{
+    margin: 50px 20px;
+}
+
+/* FOOD CONTAINER */
+
+.foods-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+/* FOOD CARD */
+
+.food-card{
+    background-color: white;
+
+    padding: 25px;
+
+    width: 320px;
+
+    border-radius: 20px;
+
+    text-align: center;
+
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+
+    transition: 0.3s;
+}
+
+.food-card:hover{
+    transform: translateY(-10px);
+
+    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+}
+
+/* FOOD IMAGE */
+
+.food-card img{
+    border-radius: 20px;
+}
+
+/* FOOD TITLE */
+
+.food-card h3{
+    margin-top: 15px;
+
+    font-size: 24px;
+    color: #111;
+}
+
+/* FOOD DESCRIPTION */
+
+.food-card p{
+    margin-top: 10px;
+
+    color: #555;
+
+    line-height: 1.6;
+
+    font-size: 15px;
+}
+
+/* PRICE */
+
+.food-card span{
+    display: block;
+
+    margin-top: 15px;
+
+    font-size: 18px;
+    font-weight: bold;
+
+    color: #822;
+}
+
+/* FOOTER */
+
+.footer{
+    background-color: #822;
+
+    color: blanchedalmond;
+
+    text-align: center;
+
+    padding: 20px;
+
+    margin: 10px;
+
+    border-radius: 20px;
+
+    font-size: 18px;
+}
+
